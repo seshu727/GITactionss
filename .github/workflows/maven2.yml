@@ -3,11 +3,7 @@
 
 name: CII
 
-on:
-  push:
-    branches: [ windows-latest ]
-  pull_request:
-    branches: [ windows-latest ]
+on:[push]
 
 jobs:
   build:
